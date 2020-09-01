@@ -1,9 +1,9 @@
 from capitals import states
 import random
-random.shuffle(states)
 
 
 def play_game():
+    random.shuffle(states)
     print("Welcome to the game!")
 
     correct = 0
