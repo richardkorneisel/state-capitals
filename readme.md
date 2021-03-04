@@ -18,7 +18,7 @@ all 50 states.
 There is starter code available in `lib/script.py`. Note how the states are
 already imported for you!
 
-Write the rest of your code in the `script` file. You can execute a python file
+Write the rest of your code in the `script` file. You can test your code in Anacond'a Spyder as usual, but if you'd like to execute a python file from the command line try:
 by doing `python3 lib/script.py`
 
 Please turn in your submission by the deadline on your cohort calendar.
