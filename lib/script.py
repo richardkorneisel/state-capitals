@@ -13,8 +13,8 @@ def start_game():
             if len(states)!=0:
                 round=round+1
                 print(f'Round {round}:')
-                print('Type in the state capital for:')
-                print(states[0]['name'])
+                print('Type in the state capital for {}:'.format(states[0]['name']))
+                #print(states[0]['name'])
                 user_answer=input()
                 if user_answer==states[0]['capital']:
                     print('You are correct!!!')
