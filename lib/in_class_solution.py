@@ -9,9 +9,6 @@ def play_game():
     correct = 0
     incorrect = 0
     total_states = 0
-    
-    print len(states)
-    
     for state in states:
         user_input = input(
             "What is the capital of {0}? ".format(state["name"]))
